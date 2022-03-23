@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sub-details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container mt-5 mb-5 pb-6"> 
+        <p class="display-6 text-capitalize text-danger">sub-details(collapse)</p>
+        <p class="lead text-capitalize">
+         add show in child tag  to get preview of your content
+        <code>class = show</code>
+        </p>
+        <button  data-bs-toggle = 'collapse' data-bs-target = '#data' class="btn btn-primary">click me</button>
+        <div id="data" class="collapse">Collapsibles are useful when you want to hide and show large amount of content:</div>
+        <hr>
+        <hr>
+        <p class="display-6 text-capitalize text-danger">group of collapse:</p>
+        <p class="lead text-capitalize">a group of subdetails,check the inspect to get clear view</p>
+        <div id="grp">
+            <!-- grp-1 -->
+            <div class="card">
+                <div class="card-header">
+                    <a href="#one" class="btn" data-bs-toggle="collapse">click me-1</a>
+                </div>
+                <div class="collapse" id="one" data-bs-parent= "#grp">
+                    <div class="card-body">
+                        body-1
+                    </div>
+                </div>
+            </div>
+            <!-- grp-2 -->
+            <div class="card">
+                <div class="card-header">
+                    <a href="#two" class="btn" data-bs-toggle="collapse">click me-2</a>
+                </div>
+                <div class="collapse " id="two" data-bs-parent= "#grp">
+                    <div class="card-body">
+                        body-2
+                    </div>
+                </div>
+            </div>
+            <!-- grp-3 -->
+            <div class="card">
+                <div class="card-header">
+                    <a href="#three" class="collapsed btn" data-bs-toggle="collapse">click me-3</a>
+                </div>
+                <div class="collapse " id="three" data-bs-parent= "#grp">
+                    <div class="card-body">
+                        body-3
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
