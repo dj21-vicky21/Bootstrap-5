@@ -9,8 +9,110 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <div class="container">
+    <div class="container mt-5 mb-5 pb-5">
+        <p class="display-6 text-danger text-capitalize">dropdown-menu:</p>
+        <p class="lead text-capitalize">basic dropdown-menu <strong>inspect to get clear view code</strong></p> 
         
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle = "dropdown">dropdown</button>
+            <ul class="dropdown-menu">
+                <li><a href="#" class="dropdown-item">list-1</a></li>
+                <li><a href="#" class="dropdown-item">list-2</a></li>
+                <li><a href="#" class="dropdown-item">list-3</a></li>
+            </ul>
+        </div>
+        <hr>
+        <hr>
+        <p class="lead text-capitalize">divider dropdown-lists <strong>inspect to get clear view code</strong>
+        <code class="text-lowercase">class="dropdown-divider"</code></p> 
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle = "dropdown">dropdown</button>
+            <ul class="dropdown-menu">
+                <li><a href="#" class="dropdown-item">list-1</a></li>
+                <li><a href="#" class="dropdown-item">list-2</a></li>
+                <li><a href="#" class="dropdown-item">list-3</a></li>
+                <li class="dropdown-divider"></li>
+                <li><a href="#" class="dropdown-item">list-4</a></li>
+            </ul>
+        </div>
+        <hr>
+        <hr>
+        <p class="lead text-capitalize">header for dropdown-list <strong>inspect to get clear view code</strong> 
+            <code class="text-lowercase">class="dropdown-header"</code></p> 
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle = "dropdown">dropdown</button>
+            <ul class="dropdown-menu">
+                <li class="dropdown-header">header-1</li>
+                <li><a href="#" class="dropdown-item">list-1</a></li>
+                <li><a href="#" class="dropdown-item">list-2</a></li>
+                <li><a href="#" class="dropdown-item">list-3</a></li>
+                <li class="dropdown-divider"></li>
+                <li class="dropdown-header">header-2</li>
+                <li><a href="#" class="dropdown-item">list-4</a></li>
+            </ul>
+        </div>
+        <hr>
+        <hr>
+        <p class="lead text-capitalize">add active & disable list for dropdown-list <strong>inspect to get clear view code</strong> 
+            <code class="text-lowercase">class="active" (or) "disabled"</code></p>
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle = "dropdown">dropdown</button>
+            <ul class="dropdown-menu">
+                <li><a href="#" class="dropdown-item">list-1</a></li>
+                <li><a href="#" class="dropdown-item active">active list</a></li>
+                <li><a href="#" class="dropdown-item">list-3</a></li>
+                <li><a href="#" class="dropdown-item disabled">disable-list</a></li>
+            </ul>
+        </div>
+        <hr>
+        <hr>
+        <p class="lead text-capitalize">change the position the arrow of <strong>dropdown</strong>, In parent tag
+            <code class="text-lowercase">class="dropdown dropstart"</code></p>
+            <div class="dropdown dropstart d-flex justify-content-center">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle = "dropdown">dropdown</button>
+                <ul class="dropdown-menu">
+                    <li><a href="#" class="dropdown-item">list-1</a></li>
+                    <li><a href="#" class="dropdown-item "> list-2</a></li>
+                    <li><a href="#" class="dropdown-item">list-3</a></li>
+                    <li><a href="#" class="dropdown-item ">list-4</a></li>
+                </ul>
+            </div>
+            <hr>
+            <p class="lead text-capitalize">change the position the arrow of <strong>dropdown</strong>, In parent tag
+                <code class="text-lowercase">class="dropdown dropend"</code></p>
+                <div class="dropdown dropend d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle = "dropdown">dropdown</button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" class="dropdown-item">list-1</a></li>
+                        <li><a href="#" class="dropdown-item "> list-2</a></li>
+                        <li><a href="#" class="dropdown-item">list-3</a></li>
+                        <li><a href="#" class="dropdown-item ">list-4</a></li>
+                    </ul>
+                </div>
+                <hr>
+                <p class="lead text-capitalize">change the position the arrow of <strong>dropdown</strong>, In parent tag
+                    <code class="text-lowercase">class="dropdown dropup"</code></p>
+                    <div class="dropdown dropup d-flex justify-content-center">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle = "dropdown">dropdown</button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">list-1</a></li>
+                            <li><a href="#" class="dropdown-item "> list-2</a></li>
+                            <li><a href="#" class="dropdown-item">list-3</a></li>
+                            <li><a href="#" class="dropdown-item ">list-4</a></li>
+                        </ul>
+                    </div>
+                <hr>
+                <hr>
+                <p class="lead text-capitalize">add plain text to a dropdown item</p>
+                <div class="dropdown">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle = "dropdown">dropdown</button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" class="dropdown-item">list-1</a></li>
+                        <li><a href="#" class="dropdown-item ">list-2</a></li>
+                        <li><a href="#" class="dropdown-item">list-3</a></li>
+                        <li class="dropdown-item-text">just a text</li>
+                    </ul>
+                </div>
     </div>
 </body>
 </html>
